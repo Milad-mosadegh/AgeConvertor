@@ -20,10 +20,17 @@ body {
 }
 
 .main {
-  -webkit-box-shadow: 4px 5px 17px rgba(0, 0, 0, 0.543);
-          box-shadow: 4px 5px 17px rgba(0, 0, 0, 0.543);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   padding: 100px;
   border-radius: 20px;
+}
+
+.main:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.543);
+          box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.543);
 }
 
 .main h1 {

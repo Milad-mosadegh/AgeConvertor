@@ -13,9 +13,14 @@ body{
 }
 
 .main{
-    box-shadow: 4px 5px 17px rgba(0, 0, 0, 0.543);
+    transition: 0.4s;
     padding: 100px;
     border-radius: 20px;
+    &:hover{
+        transition: 0.5s;
+        box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.543);
+
+    }
     h1{
         text-align: center;
         color: #fff;
