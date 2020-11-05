@@ -40,10 +40,10 @@ btn.addEventListener("click", (e) => {
     var hours = Math.round(milliseconds / hour);
 
     // var seconds = Math.round(milliseconds / second);
-    resYear.innerHTML = "Year : " + years
-    resMonth.innerHTML = "Month : " + months
-    resDay.innerHTML = "Days : " + days
-    resHour.innerHTML = "Hour : " + hours
+    resYear.innerHTML = years
+    resMonth.innerHTML = months
+    resDay.innerHTML = days
+    resHour.innerHTML = hours
 })
 
 
